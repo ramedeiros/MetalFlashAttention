@@ -6,8 +6,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 src_dir = os.path.join(here, "src")
 
 sources = [
-    os.path.join(src_dir, "metal_flash_attention.mm"),
-    os.path.join(src_dir, "metal_binding.cpp"),
+    os.path.join("src/metal_flash_attention.mm"),
+    os.path.join("src/metal_binding.cpp"),
 ]
 
 ext_modules = [
