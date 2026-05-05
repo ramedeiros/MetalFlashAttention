@@ -1,3 +1,7 @@
+From https://github.com/zimengxiong/MetalFlashAttention
+
+# UPDATED AND WORKING
+
 # Metal FlashAttention
 
 Metal-accelerated FlashAttention implementation for PyTorch on Apple Silicon (M1/M2/M3/M4).
@@ -22,7 +26,7 @@ Benchmarked on Apple M4 Max with 8 attention heads and 64 head dimension:
 ## Installation
 
 ```bash
-git clone https://github.com/zimengxiong/MetalFlashAttention.git
+git clone https://github.com/ramedeiros/MetalFlashAttention.git
 cd MetalFlashAttention
 pip install -e .
 ```
